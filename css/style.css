@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.darkmode {
+  background-color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* min-height: 96px; */
+  min-height: 10vh;
+  width: 100vw;
+  align-items: center;
+  /* border-bottom: 1px solid #333333; */
+}
+
+#logotit {
+  display: flex;
+}
+
+#logo {
+  height: 56px;
+  margin-left: 16px;
+}
+
+#titulo {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin-left: 16px;
+  font-size: 40px;
+  color: #5a5a5a;
+}
+
+#itemnav {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin-left: 16px;
+  font-size: 30px;
+  color: #5a5a5a;
+}
+
+#itemnav:hover {
+  color: #000000;
+  font-size: 30.3px;
+}
+
+#darkmode img {
+  width: 30px;
+}
+
+#flexSwitchCheckDefault {
+  background-color: #8a8a8a;
+}
+
+#darkmode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 60px;
+  width: 30px;
+}
+
+.form-check-input:checked {
+  background-color: rgb(250, 250, 250);
+  border-color: white;
+}
+
+#imgprincipal {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../images/sushi.jpg");
+  background-size: cover;
+}
+
+#imgprincipal h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  max-width: 100px;
+  width: auto;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    display: none;
+  }
+  #imgprincipal h1 {
+    font-size: 50px;
+  }
+  #imgprincipal {
+    height: auto;
+  }
+}
+
+#contacto {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #5a5a5a;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#mapa {
+  min-width: 300px;
+  min-height: 300px;
+}
+
+#info {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: #5a5a5a;
+  font-size: 30px;
+}
+
+#info img {
+  height: 100px;
+}
+
+footer {
+  margin-top: 36px;
+  height: 64px;
+  background-color: #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  background-color: lightgrey;
+}
+
+.espacio {
+  height: 75px;
+}
+
+#titulocard {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: #5a5a5a;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .espacio {
+    display: none;
+  }
+}
+
+/* #menu-detallado li {
+  background: #1a1a1a;
+  color: #dbdbdb;
+} */
+
+.detalle {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: #5a5a5a;
+}
+
+.detalle h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+#formulario {
+  max-width: 400px;
+}
+
+form {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  color: #5a5a5a;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
